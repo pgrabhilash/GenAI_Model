@@ -6,32 +6,35 @@
 
 body{
     background-color: rgb(3, 40, 72);
+    font-size: 1.24rem;
 }
 
 .box{
-    max-width: 550px;
+    max-width: 850px;
     margin: auto;
     margin-top: 3rem;
     padding: 2rem;
     border-radius: 20px;
-    background-color: rgb(15, 15, 65);
+    background-color: #141423;
     color: rgb(204, 204, 204);
-    box-shadow: 0 0 20px lightblue inset;
+    box-shadow: 0 0 20px #13131f ;
     position: relative;
+    min-width: 300px;
+    height: 80dvh;
 }
 
 .box .screen{
-    font-size: .8rem;
+    font-size: 1.2rem;
     line-height: 1.4;
     width: 100%;
-    height: 320px;
+    height: 65dvh;
     overflow-y: auto;
 }
 
 .inp{
     position: absolute;
     bottom: 0;
-    background-color: rgb(15, 31, 73);
+    background-color:#273049;
     color: whitesmoke;
     padding: 3px 10px;
     border-radius:10px;
@@ -47,22 +50,24 @@ input{
     background-color: rgba(27, 27, 27, 0);
     padding: 5px 10px;
     width: 80vw;
-    height: 40px;
+    height: 50px;
     border-radius: 10px;
     outline: none;
     color:aliceblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
 }
 
 button{
-    padding: 5px;
+    padding: 5px 10px;
     border-radius: 12px;
     height: 40px;
     border: none;
-    background: #3b44c4;
+    background: #262846;
     color: white;
     cursor: pointer;
     box-shadow: 0 0 10px #a8a8b7 inset;
+    font-size: 1.2rem;
 }
 
 button:hover{
